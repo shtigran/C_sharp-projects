@@ -15,10 +15,6 @@ namespace Перегрузка_функций
             Console.WriteLine(add (20.5, 45.2));
             Console.WriteLine(add (2344444444444444, 4333333333333));
 
-
-            bool a = true;
-            Console.WriteLine((int)a);
-
             Console.ReadKey();
         }
 

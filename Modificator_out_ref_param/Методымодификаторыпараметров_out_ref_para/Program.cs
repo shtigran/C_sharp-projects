@@ -11,10 +11,12 @@ namespace Методымодификаторыпараметров_out_ref_para
         static void Main(string[] args)
         {
 
+            int a = 6, b = 7;
+            Console.WriteLine("before function ___a is: {0} b is: {1}", a, b);
+            Console.WriteLine(Add(out a, out b));
+            Console.WriteLine("After function ___a is: {0} b is: {1}", a,b);
 
-            
 
-            
 
 
             Console.ReadKey();
